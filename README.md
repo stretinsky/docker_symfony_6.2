@@ -4,7 +4,7 @@
 
     ```sh
     $ cp .env.dist .env && nano .env
-    $ cd app && cp .env.test .env
+    $ cd app && cp .env.dist .env
     ```
 
 2. Build and run the stack in detached mode (stop any system's ngixn/apache2 service first)
